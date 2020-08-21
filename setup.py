@@ -17,3 +17,7 @@ setup(
       ],
       zip_safe=False
 )
+
+from xgboost import XGBClassifier
+
+import math
